@@ -1,0 +1,19 @@
+body * {
+  font-family : "Open Sans", sans-serif;
+  line-height : 1.5;
+  font-size   : 14px;
+}
+
+.diogonal-selecting-test {
+  border-collapse : collapse;
+  margin          : 15px;
+}
+
+.diogonal-selecting-test td {
+  border  : 1px solid black;
+  padding : 5px;
+}
+
+.external {
+  background-color : yellow;
+}
