@@ -32,9 +32,7 @@
 }
 
 .content {
-  /*margin-left : 200px;*/
   padding    : 15px;
-  /*border      : 1px solid black;*/
   background : greenyellow;
   height     : 100%;
   width      : calc(100% - 200px);
@@ -57,4 +55,9 @@
   max-width  : 49%;
   background : cornsilk;
   border     : 1px solid black;
+  padding : 15px;
+}
+
+.task-el {
+  color : red;
 }
