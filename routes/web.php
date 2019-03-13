@@ -18,4 +18,12 @@ Route::middleware(['auth'])->group(function () {
         ]
     ]);
 
+    Route::resource('taskSeconds', 'TaskSecondController', [
+        'only' => [
+            'index',
+            'store',
+            'update'
+        ]
+    ]);
+
 });
